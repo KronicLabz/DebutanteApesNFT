@@ -1,0 +1,19 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "Debutante Apes NFT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KronicLabz/DebutanteApesNFT.git"
+  },
+  "author": "Dustin - KronicLabz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KronicLabz/DebutanteApesNFT/issues"
+  },
+  "homepage": "https://github.com/KronicLabz/DebutanteApesNFT#readme"
+}
