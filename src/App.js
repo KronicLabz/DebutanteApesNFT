@@ -9,10 +9,11 @@ import { FaWallet, FaCheck, FaRegGem, FaThLarge } from 'react-icons/fa';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 // Constants
-const TWITTER_HANDLE = '@DebonairApe';
-const TWITTER_LINK = `https://twitter.com/DebonairApe`;
+const TWITTER_HANDLE = '@MotionDesignG';
+const TWITTER_LINK = `https://twitter.com/MotionDesignG`;
+const WEBSITE_LINK = `https://www.motiondesigng.com/debutante/`;
 const OPENSEA_COLLECTION_LINK =
-  'https://opensea.io/collection/debonairape';
+  'https://opensea.io/collection/debutanteape-dap';
 const TOTAL_MINT_COUNT = 1000;
 
 // @TODO: Note on contract redeploys
@@ -341,7 +342,7 @@ const App = () => {
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
           <a
             className="footer-text"
-            href={TWITTER_LINK}
+            href={WEBSITE_LINK}
             target="_blank"
             rel="noreferrer"
           >{` ${TWITTER_HANDLE}`}   Copyright 2022</a>
