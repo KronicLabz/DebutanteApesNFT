@@ -9,8 +9,8 @@ import { FaWallet, FaCheck, FaRegGem, FaThLarge } from 'react-icons/fa';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 // Constants
-const TWITTER_HANDLE = '@MotionDesignG';
-const TWITTER_LINK = `https://twitter.com/MotionDesignG`;
+const TWITTER_HANDLE = 'motiondesigng.com';
+const TWITTER_LINK = `https://www.motiondesigng.com/debutante/`;
 const WEBSITE_LINK = `https://www.motiondesigng.com/debutante/`;
 const OPENSEA_COLLECTION_LINK =
   'https://opensea.io/collection/debutanteape-dap';
@@ -249,11 +249,7 @@ const App = () => {
       <div className="container">
         <div className="header-container">
           <div className="header gradient-text ">
-            DEBUTANTE&nbsp;
-            <div className="gradient-text4">A</div>
-            <div className="gradient-text1">P</div>
-            <div className="gradient-text2">E</div>
-            <div className="gradient-text3">S</div>
+            Debutante Ape Project D.A.P&nbsp;
           </div>
 
           <div className="bg-container">
@@ -272,12 +268,13 @@ const App = () => {
               <p className="mint-count">Sold out!</p>
             )}
             <p className="about">
-            D.A.P is a collection of 1,000 Debutante Ape NFTs – Non-generative,
-            unique 3D digital collectibles living on the Ethereum blockchain. 
-            Your Ape will grants access to members-only benefits, the first of
-            which is unlocking the exclusive access in the private Discord.
-            Future areas and perks can be unlocked by the community through 
-            roadmap activation.
+            D.A.P is a collection of 1,000 Debutante Ape 
+            NFTs – Non-generative, unique 3D digital collectibles 
+            living on the Ethereum blockchain. Your Ape will 
+            grants access to members-only benefits, the first of
+            which is unlocking the exclusive access in the private 
+            Discord. Future areas and perks can be unlocked 
+            by the community through roadmap activation.
             </p>
             {getButton()}
             <button
@@ -339,13 +336,12 @@ const App = () => {
           </div>
         </div>
         <div className="footer-container">
-          <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
           <a
             className="footer-text"
             href={WEBSITE_LINK}
             target="_blank"
             rel="noreferrer"
-          >{` ${TWITTER_HANDLE}`}   Copyright 2022</a>
+          >{` ${TWITTER_HANDLE}`} © 2022 MotionDesignG. All rights reserved</a>
         </div>
       </div>
     </div>
