@@ -17,12 +17,12 @@ const OPENSEA_COLLECTION_LINK =
 const TOTAL_MINT_COUNT = 1000;
 
 // @TODO: Note on contract redeploys
-// Step 1: Deploy the contract 'npx hardhat run scripts/deploy.js --network rinkeby'
+// Step 1: Deploy the contract 'npx hardhat run scripts/deploy.js --network mainnet'
 // Step 2: Update the 'CONTRACT_ADDRESS'
 // Step 3: Update the abi file(src/utils/MyEpicNFT.json)
 
 // Contract Address
-const CONTRACT_ADDRESS = '0x8beE30cfD19Fa1129f9c9F27F331aE71414BDEd3';
+const CONTRACT_ADDRESS = '0x9EAb0609CD7d4796e33601cfE04835549F6864D9';
 
 const App = () => {
   // Store our user's public wallet.
